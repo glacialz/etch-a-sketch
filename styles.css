@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+.container {
+    background-image: linear-gradient(to bottom right, rgb(151, 221, 200), pink);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid {
+    box-shadow: 10px 10px 5px rgb(83, 83, 83);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 10%;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
